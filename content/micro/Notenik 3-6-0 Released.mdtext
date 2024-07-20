@@ -1,0 +1,18 @@
+Title:  Notenik 3.6.0 Released
+
+Tags:   notenik
+
+Link:   https://notenik.net
+
+Image Link: https://notenik.net/images/notenik.png
+
+Date:   2020-05-06
+
+Date Added: 2020-05-12 09:44:50 -0700
+
+Date Modified: 2024-04-30 18:12:45 -0700
+
+Body:
+
+Users can now drag and drop a Note from one Collection to another in order to copy it to the second Collection; a Note sharing option to insert Markdown block quotes has been added; improved apostrophe handling when using the Notenik Markdown parser; and a new Bookmarks Board allowing users to select an available Collection to be opened. 
+

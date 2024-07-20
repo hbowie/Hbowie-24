@@ -1,0 +1,277 @@
+html {
+	color: #e7cfb9;
+	background-color: #271c1f;
+	font-family: "concourse_3", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16pt;
+	line-height: 1.5;
+}
+
+img {
+	max-width: 100%;
+}
+
+hr {
+	color: #e7cfb9;
+}
+
+nav.top-nav {
+	border-color: #e7cfb9;
+	border-style: solid;
+	border-width: 0.2rem;
+}
+
+article {
+   max-width: 30em;
+   margin: 0 auto; 
+}
+
+/* --------------------------------------------------
+
+	Links
+
+* -------------------------------------------------- */
+
+a:link {
+	color: #e7cfb9;
+	text-decoration: none;
+	border-bottom: 1px dotted #e7cfb9;
+}
+
+a:visited {
+	color: #e7cfb9;
+	text-decoration: none;
+	border-bottom: 1px dotted #e7cfb9;
+}
+
+a:hover {
+	color: #e7cfb9;
+	text-decoration: none;
+	border-bottom: 1px dotted #e7cfb9;
+}
+
+a:active {
+	color: #e7cfb9;
+	text-decoration: none;
+	border-bottom: 1px dotted #e7cfb9;
+}
+
+a.implicit {
+	text-decoration: none;
+	border: none;
+}
+
+a.ext-link::after {
+	content: "";
+	width: 0.9em;
+	height: 0.9em;
+	margin-left: 0.2em;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' stroke='%23E7CFB9' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z'/%3E%3Cpath fill-rule='evenodd' d='M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z'/%3E%3C/svg%3E");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	display: inline-block;
+}
+	
+/* --------------------------------------------------
+	
+		Paragraphs and Block Quotes
+	
+* -------------------------------------------------- */
+
+p {
+	margin-block-start: 0.5em; 
+}
+
+blockquote {
+	margin: 0.25em 0;
+	padding: 0.35em 40px;
+	line-height: 1.45;
+	position: relative;
+	/* color: #383838; */
+}
+
+blockquote:before {
+	display: block;
+	padding-left: 10px;
+	content: "\201C";
+	font-size: 80px;
+	position: absolute;
+	left: -20px;
+	top: -20px;
+	color: #8b6854;
+}
+
+/* --------------------------------------------------
+
+	Headings
+
+* -------------------------------------------------- */
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "triplicate_a", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+	margin-top: 1em;
+	font-size: 1.6em;
+}
+h2 {
+	font-size: 1.4em;
+	font-style: normal;
+	font-family: "triplicate_b", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+h3 {
+	font-size: 1.2em;
+	margin-bottom: 0;
+}
+h1.small-header {
+	font-size: 1.6em;
+}
+
+p.section-name {
+	font-family: "triplicate_a", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style: italic;
+	font-weight: 500;
+	margin-block-end: 0;
+}
+
+/* --------------------------------------------------
+
+	Tables
+
+* -------------------------------------------------- */
+
+table {
+  border-collapse: collapse;
+  margin-bottom: 1em;
+}
+
+caption {
+	border: 0;
+	font-size: 1.2em;
+	font-weight: bold;
+	margin-top: 0.4em;
+	margin-bottom: 0.2em;
+	text-align: center;
+}
+
+th {
+	border: 1px #7D653B solid;
+	text-align: left;
+	padding: 5px;
+}
+
+td {
+	border: 1px #7D653B solid;
+	text-align: left;
+	vertical-align: top;
+	padding: 5px;
+}
+
+/* --------------------------------------------------
+
+	Footer
+
+* -------------------------------------------------- */
+
+footer {
+	font-size: 0.7rem;
+	text-align: center;
+}
+
+/* --------------------------------------------------
+
+	Colors
+
+* -------------------------------------------------- */
+
+.infrared
+{
+	color: #FFF;
+	font-weight: 500;
+	background-color: #EA60B5;
+}
+.magenta
+{
+	color: #FFF;
+	font-weight: 500;
+	background-color: #D5007D;
+}
+.red
+{
+	color: #FFF;
+	font-weight: 500;
+	background-color: #CA0018;
+}
+.amber
+{
+	color: #FFF;
+	font-weight: 500;
+	background-color: #D45507;
+}
+.orange
+{
+	color: #FFF;
+	font-weight: 500;
+	background-color: #FF8E01;
+}
+.green
+{
+	color: #FFF;
+	font-weight: 500;
+	background-color: #019B2D;
+}
+.teal
+{
+	color: #FFF;
+	font-weight: 500;
+	background-color: #00C89A;
+}
+.turqoise
+{
+	color: #FFF;
+	font-weight: 500;
+	background-color: #006BD8;
+}
+.indigo
+{
+	color: #FFF;
+	font-weight: 500;
+	background-color: #013388;
+}
+.beige
+{
+	color: #630;
+	font-weight: 500;
+	background-color: #F5F5DC;
+}
+.purple
+{
+	color: #FFF;
+	font-weight: 500;
+	background-color: #8B00FF;
+}
+.blue
+{
+	color: #FFF;
+	font-weight: 500;
+	background-color: blue;
+}
+.yellow
+{
+	color: #000;
+	font-weight: 500;
+	background-color: yellow;
+}
+.turquoise
+{
+	color: #000;
+	font-weight: 500;
+	background-color: #40E0D0;
+}
+.coral
+{
+	color: #000;
+	font-weight: 500;
+	background-color: #FF7F50;
+}

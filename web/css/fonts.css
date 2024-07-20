@@ -1,0 +1,431 @@
+@font-face {
+font-family: concourse_2;
+font-style: normal;
+font-weight: normal;
+font-stretch: normal;
+font-display: auto;
+src: url('../fonts/concourse_2_regular.woff2') format('woff2');
+}
+
+@font-face {
+font-family: concourse_2;
+font-style: italic;
+font-weight: normal;
+font-stretch: normal;
+font-display: auto;
+src: url('../fonts/concourse_2_italic.woff2') format('woff2');
+}
+
+@font-face {
+font-family: concourse_2;
+font-style: normal;
+font-weight: bold;
+font-stretch: normal;
+font-display: auto;
+src: url('../fonts/concourse_2_bold.woff2') format('woff2');
+}
+
+@font-face {
+font-family: concourse_2;
+font-style: italic;
+font-weight: bold;
+font-stretch: normal;
+font-display: auto;
+src: url('../fonts/concourse_2_bold_italic.woff2') format('woff2');
+}
+
+@font-face {
+font-family: concourse_2_caps;
+font-style: normal;
+font-weight: normal;
+font-stretch: normal;
+font-display: auto;
+src: url('../fonts/concourse_2_caps_regular.woff2') format('woff2');
+}
+
+@font-face {
+font-family: concourse_2_caps;
+font-style: normal;
+font-weight: bold;
+font-stretch: normal;
+font-display: auto;
+src: url('../fonts/concourse_2_caps_bold.woff2') format('woff2');
+}
+
+@font-face {
+font-family: concourse_3;
+font-style: normal;
+font-weight: normal;
+font-stretch: normal;
+font-display: auto;
+src: url('../fonts/concourse_3_regular.woff2') format('woff2');
+}
+
+@font-face {
+font-family: concourse_3;
+font-style: italic;
+font-weight: normal;
+font-stretch: normal;
+font-display: auto;
+src: url('../fonts/concourse_3_italic.woff2') format('woff2');
+}
+
+@font-face {
+font-family: concourse_3;
+font-style: normal;
+font-weight: bold;
+font-stretch: normal;
+font-display: auto;
+src: url('../fonts/concourse_3_bold.woff2') format('woff2');
+}
+
+@font-face {
+font-family: concourse_3;
+font-style: italic;
+font-weight: bold;
+font-stretch: normal;
+font-display: auto;
+src: url('../fonts/concourse_3_bold_italic.woff2') format('woff2');
+}
+
+@font-face {
+font-family: concourse_3_caps;
+font-style: normal;
+font-weight: normal;
+font-stretch: normal;
+font-display: auto;
+src: url('../fonts/concourse_3_caps_regular.woff2') format('woff2');
+}
+
+@font-face {
+font-family: concourse_3_caps;
+font-style: normal;
+font-weight: bold;
+font-stretch: normal;
+font-display: auto;
+src: url('../fonts/concourse_3_caps_bold.woff2') format('woff2');
+}
+
+@font-face {
+font-family: concourse_4;
+font-style: normal;
+font-weight: normal;
+font-stretch: normal;
+font-display: auto;
+src: url('../fonts/concourse_4_regular.woff2') format('woff2');
+}
+
+@font-face {
+font-family: concourse_4;
+font-style: italic;
+font-weight: normal;
+font-stretch: normal;
+font-display: auto;
+src: url('../fonts/concourse_4_italic.woff2') format('woff2');
+}
+
+@font-face {
+font-family: concourse_4;
+font-style: normal;
+font-weight: bold;
+font-stretch: normal;
+font-display: auto;
+src: url('../fonts/concourse_4_bold.woff2') format('woff2');
+}
+
+@font-face {
+font-family: concourse_4;
+font-style: italic;
+font-weight: bold;
+font-stretch: normal;
+font-display: auto;
+src: url('../fonts/concourse_4_bold_italic.woff2') format('woff2');
+}
+
+@font-face {
+font-family: concourse_4_caps;
+font-style: normal;
+font-weight: normal;
+font-stretch: normal;
+font-display: auto;
+src: url('../fonts/concourse_4_caps_regular.woff2') format('woff2');
+}
+
+@font-face {
+font-family: concourse_4_caps;
+font-style: normal;
+font-weight: bold;
+font-stretch: normal;
+font-display: auto;
+src: url('../fonts/concourse_4_caps_bold.woff2') format('woff2');
+}
+
+@font-face {
+font-family: concourse_6;
+font-style: normal;
+font-weight: normal;
+font-stretch: normal;
+font-display: auto;
+src: url('../fonts/concourse_6_regular.woff2') format('woff2');
+}
+
+@font-face {
+font-family: concourse_6;
+font-style: italic;
+font-weight: normal;
+font-stretch: normal;
+font-display: auto;
+src: url('../fonts/concourse_6_italic.woff2') format('woff2');
+}
+
+@font-face {
+font-family: concourse_7;
+font-style: normal;
+font-weight: normal;
+font-stretch: normal;
+font-display: auto;
+src: url('../fonts/concourse_7_regular.woff2') format('woff2');
+}
+
+@font-face {
+font-family: concourse_7;
+font-style: italic;
+font-weight: normal;
+font-stretch: normal;
+font-display: auto;
+src: url('../fonts/concourse_7_italic.woff2') format('woff2');
+}
+
+@font-face {
+font-family: concourse_8;
+font-style: normal;
+font-weight: normal;
+font-stretch: normal;
+font-display: auto;
+src: url('../fonts/concourse_8_regular.woff2') format('woff2');
+}
+
+@font-face {
+font-family: concourse_8;
+font-style: italic;
+font-weight: normal;
+font-stretch: normal;
+font-display: auto;
+src: url('../fonts/concourse_8_italic.woff2') format('woff2');
+}
+
+@font-face {
+font-family: equity_a;
+font-style: normal;
+font-weight: normal;
+font-stretch: normal;
+font-display: auto;
+src: url('../fonts/equity_a_regular.woff2') format('woff2');
+}
+
+@font-face {
+font-family: equity_a;
+font-style: italic;
+font-weight: normal;
+font-stretch: normal;
+font-display: auto;
+src: url('../fonts/equity_a_italic.woff2') format('woff2');
+}
+
+@font-face {
+font-family: equity_a;
+font-style: normal;
+font-weight: bold;
+font-stretch: normal;
+font-display: auto;
+src: url('../fonts/equity_a_bold.woff2') format('woff2');
+}
+
+@font-face {
+font-family: equity_a;
+font-style: italic;
+font-weight: bold;
+font-stretch: normal;
+font-display: auto;
+src: url('../fonts/equity_a_bold_italic.woff2') format('woff2');
+}
+
+@font-face {
+font-family: equity_a_caps;
+font-style: normal;
+font-weight: normal;
+font-stretch: normal;
+font-display: auto;
+src: url('../fonts/equity_a_caps_regular.woff2') format('woff2');
+}
+
+@font-face {
+font-family: equity_a_caps;
+font-style: normal;
+font-weight: bold;
+font-stretch: normal;
+font-display: auto;
+src: url('../fonts/equity_a_caps_bold.woff2') format('woff2');
+}
+
+@font-face {
+font-family: equity_b;
+font-style: normal;
+font-weight: normal;
+font-stretch: normal;
+font-display: auto;
+src: url('../fonts/equity_b_regular.woff2') format('woff2');
+}
+
+@font-face {
+font-family: equity_b;
+font-style: italic;
+font-weight: normal;
+font-stretch: normal;
+font-display: auto;
+src: url('../fonts/equity_b_italic.woff2') format('woff2');
+}
+
+@font-face {
+font-family: equity_b;
+font-style: normal;
+font-weight: bold;
+font-stretch: normal;
+font-display: auto;
+src: url('../fonts/equity_b_bold.woff2') format('woff2');
+}
+
+@font-face {
+font-family: equity_b;
+font-style: italic;
+font-weight: bold;
+font-stretch: normal;
+font-display: auto;
+src: url('../fonts/equity_b_bold_italic.woff2') format('woff2');
+}
+
+@font-face {
+font-family: equity_b_caps;
+font-style: normal;
+font-weight: normal;
+font-stretch: normal;
+font-display: auto;
+src: url('../fonts/equity_b_caps_regular.woff2') format('woff2');
+}
+
+@font-face {
+font-family: equity_b_caps;
+font-style: normal;
+font-weight: bold;
+font-stretch: normal;
+font-display: auto;
+src: url('../fonts/equity_b_caps_bold.woff2') format('woff2');
+}
+
+@font-face {
+font-family: heliotrope_4;
+font-style: normal;
+font-weight: normal;
+font-stretch: normal;
+font-display: auto;
+src: url('../fonts/heliotrope_4_regular.woff2') format('woff2');
+}
+
+@font-face {
+font-family: heliotrope_4;
+font-style: italic;
+font-weight: normal;
+font-stretch: normal;
+font-display: auto;
+src: url('../fonts/heliotrope_4_italic.woff2') format('woff2');
+}
+
+@font-face {
+font-family: heliotrope_4;
+font-style: normal;
+font-weight: bold;
+font-stretch: normal;
+font-display: auto;
+src: url('../fonts/heliotrope_4_bold.woff2') format('woff2');
+}
+
+@font-face {
+font-family: heliotrope_4;
+font-style: italic;
+font-weight: bold;
+font-stretch: normal;
+font-display: auto;
+src: url('../fonts/heliotrope_4_bold_italic.woff2') format('woff2');
+}
+
+@font-face {
+font-family: triplicate_a;
+font-style: normal;
+font-weight: normal;
+font-stretch: normal;
+font-display: auto;
+src: url('../fonts/triplicate_a_regular.woff2') format('woff2');
+}
+
+@font-face {
+font-family: triplicate_a;
+font-style: italic;
+font-weight: normal;
+font-stretch: normal;
+font-display: auto;
+src: url('../fonts/triplicate_a_italic.woff2') format('woff2');
+}
+
+@font-face {
+font-family: triplicate_a;
+font-style: normal;
+font-weight: bold;
+font-stretch: normal;
+font-display: auto;
+src: url('../fonts/triplicate_a_bold.woff2') format('woff2');
+}
+
+@font-face {
+font-family: triplicate_a;
+font-style: italic;
+font-weight: bold;
+font-stretch: normal;
+font-display: auto;
+src: url('../fonts/triplicate_a_bold_italic.woff2') format('woff2');
+}
+
+@font-face {
+font-family: triplicate_b;
+font-style: normal;
+font-weight: normal;
+font-stretch: normal;
+font-display: auto;
+src: url('../fonts/triplicate_b_regular.woff2') format('woff2');
+}
+
+@font-face {
+font-family: triplicate_b;
+font-style: italic;
+font-weight: normal;
+font-stretch: normal;
+font-display: auto;
+src: url('../fonts/triplicate_b_italic.woff2') format('woff2');
+}
+
+@font-face {
+font-family: triplicate_b;
+font-style: normal;
+font-weight: bold;
+font-stretch: normal;
+font-display: auto;
+src: url('../fonts/triplicate_b_bold.woff2') format('woff2');
+}
+
+@font-face {
+font-family: triplicate_b;
+font-style: italic;
+font-weight: bold;
+font-stretch: normal;
+font-display: auto;
+src: url('../fonts/triplicate_b_bold_italic.woff2') format('woff2');
+}

@@ -1,0 +1,18 @@
+Title:  Notenik 7.2.0 Released
+
+Tags:   notenik
+
+Link:   https://notenik.app/news/notenik-7.2.0-some-nifty-enhancements.html
+
+Image Link: https://notenik.app/images/notenik.png
+
+Date:   2021-09-20
+
+Date Added: 2021-09-20 09:26:10 -0700
+
+Date Modified: 2024-04-30 18:12:45 -0700
+
+Body:
+
+Website address updated to point to Notenik.app; wiki links now will try to pluralize a reference, if it is not found in singular form; the Merge template Set command now allows a variable to be used as part or all of a global variable name; Markdown quote sharing corrected to respect lookup links; added a Quick Export and Open command. 
+

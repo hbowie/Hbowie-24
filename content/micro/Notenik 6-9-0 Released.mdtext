@@ -1,0 +1,18 @@
+Title:  Notenik 6.9.0 Released
+
+Tags:   notenik
+
+Link:   https://notenik.app/news/notenik-6.9.0-enhanced-opml-import-and-export.html
+
+Image Link: https://notenik.app/images/notenik.png
+
+Date:   2021-08-12
+
+Date Added: 2021-09-20 09:26:10 -0700
+
+Date Modified: 2024-04-30 18:12:45 -0700
+
+Body:
+
+Added several new options to better support outlining: OPML Import and improved OPML Export, ability to add a new Child to an existing Note, plus ability to drag and drop within a sequenced list; fixed list scrolling so that the Note highlighted and visible on the left will generally match the Note currently selected on the right. 
+
