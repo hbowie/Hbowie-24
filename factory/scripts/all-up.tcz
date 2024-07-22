@@ -1,0 +1,8 @@
+module	action	modifier	object	value
+
+<!-- Include all the focused scripts -->
+
+script	set		log-noise	quiet
+script	include			quotes
+script	include			authors
+script	include			writings

@@ -1,0 +1,14 @@
+module	action	modifier	object	value
+input	set		xpltags	false
+input	set		dirdepth	1
+input	open	notenik-defined		/Users/hbowie/Sites/HBowie-24/content/authors
+filter	clear			
+filter	set		params	
+sort	clear			
+sort	add	ascending	author	
+sort	set		params	
+template	webroot			/Users/hbowie/Sites/HBowie-24/web
+template	open			/Users/hbowie/Sites/HBowie-24/factory/templates/authors-page.html
+template	generate			
+template	open			/Users/hbowie/Sites/HBowie-24/factory/templates/authors-index.html
+template	generate			

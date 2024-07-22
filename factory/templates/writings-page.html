@@ -16,14 +16,47 @@
 	  and the data at =$parent-folder$=. 
 	 -------------------------------------------------------------------->
 	<body>
-<?include "../includes/top-nav.html" ?>
 		<header>
-			
+<?include "../includes/top-nav.html" ?>	
 		</header>
 		<main>
 			<article>
+<?if "=$class$=" eq "reference" ?>
+				<p><span class="class-of-writing">Reference Summaries:</span></p>
+<?endif?>
+<?if "=$class$=" eq "general" ?>
+				<p><span class="class-of-writing">Essays:</span></p>
+<?endif?>
+<?if "=$class$=" eq "song" ?>
+				<p><span class="class-of-writing">Lexicon of Song:</span></p>
+<?endif?>
+<?if "=$class$=" eq "song" ?>
+				<h1>&ldquo;=$title&h$=&rdquo;</h1>
+
+				<p>A song written by =$songwriters$= in =$date-of-song$=</p>
+<?else?>
 				<h1>=$title&h$=</h1>
-			
+<?endif?>
+				
+				<p class="date-and-mins">=$date&dd MMM yyyy$= &middot; =$minutes-to-read$= min read</p>
+				
+				<p>=$tags&gtags/;tag-link; $=</p>
+
+<?if "=$image-name$=" ?>
+<?copyfile "../../content/writings/files/=$imagename$=" "../../web/images/=$imagename&f$=" ?>	
+<?endif?>	
+<?if "=$class$=" eq "song" ?>
+<?if "=$image-name$=" ?>
+<?if "=$apple-music-link$=" >
+<a href="=$apple-music-link$=">
+<?endif?>
+<img class="song-image" src="=$relative$=images/=$image-name&f$=" alt="=$image-alt$=">
+<?if "=$apple-music-link$=">
+</a>
+<?endif?>
+<?endif?>
+
+<?if "=$class$=" ne "song" ?>
 <?if "=$imagename$=" ?>
 <?if "=$imagecredit$=" ?>
 				<figure>
@@ -44,10 +77,16 @@
 					<img class="img-fluid rounded" src="=$relative$=images/=$imagename&f$=" alt="=$imagealt$=">
 				</p>
 <?endif?>
-<?copyfile "../../content/writings/files/=$imagename$=" "../../web/images/=$imagename&f$=" ?>
+<?endif?>
 <?endif?>
 
 =$body&w1o$=
+
+<?if "=$apple-music-player$=" ?>
+<p class="line-spacer"> &nbsp; </p>
+
+=$apple-music-player$=
+<?endif?>
 				<hr />
 			</article>
 		</main>

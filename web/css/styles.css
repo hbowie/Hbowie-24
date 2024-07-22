@@ -6,10 +6,6 @@ html {
 	line-height: 1.5;
 }
 
-img {
-	max-width: 100%;
-}
-
 hr {
 	color: #e7cfb9;
 }
@@ -20,8 +16,12 @@ nav.top-nav {
 	border-width: 0.2rem;
 }
 
+#masthead {
+	max-width: 30rem;
+	margin: 0 auto; 
+}
 article {
-   max-width: 30em;
+   max-width: 30rem;
    margin: 0 auto; 
 }
 
@@ -97,7 +97,7 @@ blockquote:before {
 	font-size: 80px;
 	position: absolute;
 	left: -20px;
-	top: -20px;
+	top: -10px;
 	color: #8b6854;
 }
 
@@ -126,6 +126,24 @@ h3 {
 }
 h1.small-header {
 	font-size: 1.6em;
+}
+
+article h1 {
+	margin-top: 1em;
+	font-size: 1.4em;
+}
+article h2 {
+	margin-top: 1em;
+	font-size: 1.2em;
+}
+article h3 {
+	margin-top: 1em;
+	font-size: 1.1em;
+}
+
+article.quote h1 {
+	margin-top: 1em;
+	font-size: 1.0em;
 }
 
 p.section-name {
@@ -170,6 +188,53 @@ td {
 
 /* --------------------------------------------------
 
+	Images
+
+* -------------------------------------------------- */
+
+img {
+	max-width: 100%;
+}
+
+img.song-image {
+	max-width: 13em;
+	height: auto;
+	float: right;
+	padding: 0;
+	border: 4px solid #c29a72;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 1.2em;
+	margin-left: 1.2em;
+}
+
+figcaption {
+	font-size: 0.8rem; 
+	font-style: italic;
+	margin-top: 0.3em;
+	margin-bottom: 0.8em;
+	text-align: center;
+}
+
+/* --------------------------------------------------
+
+	Structural Classes
+
+* -------------------------------------------------- */
+
+.class-of-writing {
+	font-style: italic;
+	border-bottom: 2px solid;
+}
+
+.date-and-mins {
+	font-size: 0.9rem;
+	font-style: italic;
+	font-weight: 500;
+}
+
+/* --------------------------------------------------
+
 	Footer
 
 * -------------------------------------------------- */
@@ -178,6 +243,53 @@ footer {
 	font-size: 0.7rem;
 	text-align: center;
 }
+
+/* --------------------------------------------------
+
+	Tags/Topics 
+	
+ * -------------------------------------------------- */
+
+a.tag-link { 
+   display: inline-block; 
+   text-decoration: none; 
+   border-bottom: 0;
+   border-radius: 0.25rem; 
+   background-color: #ca9972; 
+   color: #5c3a21;
+   padding: 1px 12px 1px 12px; 
+   margin: 10px 20px 10px 0; 
+   min-width: 40px; 
+   text-align: center; 
+   font-family: concourse_4_caps, 'Avenir Next', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+   font-size: 0.9rem; 
+   font-weight: 400; 
+   line-height: 1.5;
+ } 
+ 
+ a.tag-link:link { 
+   text-decoration: none; 
+   border-bottom: 0;
+   color: inherit;
+   color: #211E1F;
+ } 
+ 
+ a.tag-link:visited { 
+   text-decoration: none; 
+   border-bottom: 0;
+   color: inherit;
+   color: #211E1F;
+ } 
+ 
+ /* --------------------------------------------------
+ 
+	 Miscellaneous Styling
+ 
+ * -------------------------------------------------- */
+ 
+ .underline {
+	 border-bottom: 2px solid;
+ }
 
 /* --------------------------------------------------
 
