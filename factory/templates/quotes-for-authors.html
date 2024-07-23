@@ -21,30 +21,30 @@
 				<blockquote>
 					=$body&o$=
 				</blockquote>
-
+<?if "=$date$=" ?>
+				<p class="quote-from">=$date&$=
 <?if "=$knownworktitle$=" ?>
-				<p>From =$theworktypeslug$=
+				from =$the-work-type-slug$=
 <?if "=$worklink$=" ?>
-					<a href="=$worklink$=">
+					<a href="=$worklink$=" class="ext-link" target="_blank" rel="noopener">
 <?endif?>
 <?if =$majorwork$= eq true ?>
-					<cite>=$worktitle$=</cite>
+					<cite>=$work-title$=</cite>
 <?else?>
-					&ldquo;=$worktitle$=&rdquo;
+					&ldquo;=$work-title$=&rdquo;
 <?endif?>
 <?if "=$worklink$=" ?>
 					</a>
 <?endif?>
+<?endif?>
 				</p>
 <?endif?>
-<?if "=$date$=" ?>
-				<p>&mdash; =$date$=</p>
-<?endif?>
-
 				<p>
 					&#187;
 					<a class="implicit" href="../quotes/=$title&f$=.html">
 						Permalink for Quote
 					</a>
 				</p>
+				
+				<hr />
 <?loop?>

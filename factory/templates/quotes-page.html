@@ -15,6 +15,7 @@
 	  and the data at =$parent-folder$=. 
 	 -------------------------------------------------------------------->
 	<body>
+		<div class="wrapper-one-column">
 		<header>
 <?include "../includes/masthead-short.html" ?>
 		</header>
@@ -29,10 +30,9 @@
 					=$body&o$=
 				</blockquote>
 
-				<p>&mdash; <a href="../authors/=$author&f$=.html">=$author&,$=</a>=$date&,$=</p>
-
+				<p class="quote-from"><a href="../authors/=$author&f$=.html">=$author&,$=</a>=$date&,$=
 <?if "=$knownworktitle$=" ?>
-				<p>From =$the-work-type-slug$=
+				from =$the-work-type-slug$=
 <?if "=$worklink$=" ?>
 					<a href="=$worklink$=" class="ext-link" target="_blank" rel="noopener">
 <?endif?>
@@ -44,17 +44,35 @@
 <?if "=$worklink$=" ?>
 					</a>
 <?endif?>
-				</p>
 <?endif?>
+				</p>
 
 <?if "=$work-rights-slug$="?>
 				<p>=$work-rights-slug$=</p>
 <?endif?>
+				<hr  />
 			</article>
+			<nav>
+				<p>
+					&#187;
+					<a class="implicit" href="../index.html">
+						Home
+					</a>
+					&#187;
+					<a class="implicit" href="../authors/index.html">
+						Authors
+					</a>
+					&#187;
+					<a class="implicit" href="random.html">
+						Random Quote
+					</a>
+				</p>
+			</nav>
 		</main>
 		<footer>
 
 		</footer>
+		</div>
 	</body>
 </html>
 <?loop?>

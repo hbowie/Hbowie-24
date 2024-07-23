@@ -6,6 +6,13 @@ html {
 	line-height: 1.5;
 }
 
+div.wrapper-one-column {
+	max-width: 30rem;
+	margin: 0 auto; 
+	padding-right: 0.5rem;
+	padding-left: 0.5rem;
+}
+
 hr {
 	color: #e7cfb9;
 }
@@ -17,12 +24,11 @@ nav.top-nav {
 }
 
 #masthead {
-	max-width: 30rem;
-	margin: 0 auto; 
+
+
 }
 article {
-   max-width: 30rem;
-   margin: 0 auto; 
+
 }
 
 /* --------------------------------------------------
@@ -83,8 +89,10 @@ p {
 }
 
 blockquote {
-	margin: 0.25em 0;
-	padding: 0.35em 40px;
+	margin-block-start: 0.5rem;
+	margin-block-end: 0.1rem;
+	margin: 0.5rem 0 0.1rem 0;
+	padding: 0.25rem 40px 0.10rem 40px;
 	line-height: 1.45;
 	position: relative;
 	/* color: #383838; */
@@ -99,6 +107,25 @@ blockquote:before {
 	left: -20px;
 	top: -10px;
 	color: #8b6854;
+}
+
+.quote-from {
+	margin-block-start: 0.1rem;
+	margin-block-end: 0.5rem;
+	margin: 0.1rem 0 0.5rem 0;
+	padding: 0.25rem 40px;
+	line-height: 1.45;
+	position: relative;
+	/* color: #383838; */
+}
+
+.quote-from:before {
+	display: block;
+	padding-left: 10px;
+	content: "\2014";
+	position: absolute;
+	left: 0;
+	/* color: #8b6854; */
 }
 
 /* --------------------------------------------------

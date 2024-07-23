@@ -14,3 +14,5 @@ template	open			/Users/hbowie/Sites/HBowie-24/factory/templates/quotes-page.html
 template	generate			
 template	open			/Users/hbowie/Sites/HBowie-24/factory/templates/quotes-for-authors.html
 template	generate			
+template	open			/Users/hbowie/Sites/HBowie-24/factory/templates/quotes-random.html
+template	generate			
