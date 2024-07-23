@@ -1,4 +1,5 @@
 module	action	modifier	object	value
+script	set		log-noise	quiet
 input	set		xpltags	false
 input	set		dirdepth	1
 input	open	notenik-defined		/Users/hbowie/Sites/HBowie-24/content/authors
